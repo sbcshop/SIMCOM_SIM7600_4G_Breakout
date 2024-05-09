@@ -1,10 +1,23 @@
-# SIMCOM_SIM7600_4G_Breakout
+# SIMCom_SIM7600G-H_4G_Breakout
 
 <img src= "https://cdn.shopify.com/s/files/1/1217/2104/files/SIMCOM_4G_module_Breakout_2.png?v=1713787688" />
 
-This Github provides a getting started guide for SIMCOM SIM7600 4G Module Breakout.
+This Github provides a getting started guide for SIMCom SIM7600G-H 4G Module Breakout.
 
 ### Features:
+- SIMCom SIM7600G-H 4G Module  
+- Status led for board power and Network Activity
+- Nano SIM support slot
+- Type C interface 
+- AT command support for testing functionality and features
+- Module functional GPIOs breakout for interfacing
+- Interface with various platforms like Arduino, ESP32, Raspberry Pi, etc.
+- Multi-constellation GNSS receiver available
+- Supported Bands:
+    - B1/B2/B3/B4/B5/B7/ B8/B12/B13/B18/B19/ B20/B25/B26/ B28/B66
+    - B34/B38/B39/ B40/B41
+    - B1/B2/B4/B5/ B6/B8/B19
+    - 850/900/1800/ 1900MHz
 
 
 ### Hardware Overview
@@ -21,11 +34,11 @@ This Github provides a getting started guide for SIMCOM SIM7600 4G Module Breako
 
   
 ## Resources
-  * [Schematic](https://github.com/sbcshop/Quectel_EG25-G_Module_Breakout_Hardware/blob/main/Design%20Data/SCH%20Quectel%204G%20bkt.pdf)
-  * [Hardware Files](https://github.com/sbcshop/Quectel_EG25-G_Module_Breakout_Hardware)
-  * [3D Step File](https://github.com/sbcshop/Quectel_EG25-G_Module_Breakout_Hardware/blob/main/Mechanical%20Data/STEP%20QUECTEL%204G.step)
-  * [SIMCOM SIM7600 4G Module Datasheet](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7600%20Series_SPEC_202111.pdf)
-  * [SIMCOM SIM7600 4G Module Command Manual](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7500_SIM7600%20Series_AT%20Command%20Manual_V3.00.pdf)
+  * [Schematic](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware/blob/main/Design%20Data/SCH%20Simcom%204G%20bkt.pdf)
+  * [Hardware Files](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware)
+  * [3D Step File](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware/blob/main/Mechanical%20Data/STEP%20Simcom%204G%20BREAKOUT.step)
+  * [SIMCom SIM7600 4G Module Datasheet](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7600%20Series_SPEC_202111.pdf)
+  * [SIMCom SIM7600 4G Module Command Manual](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7500_SIM7600%20Series_AT%20Command%20Manual_V3.00.pdf)
 
 ## Related Products  
 
