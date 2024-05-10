@@ -37,7 +37,7 @@ This Github provides a getting started guide for SIMCom SIM7600G-H 4G Module Bre
 
 - Now press, hold Power Key button and release after 3-4 seconds to activate module. LEDs associated with the network will light up, first STATUS LED will be on and then NET LED starts blinking. This confirms module ready for use.
   
-- To verify open device Manager and check if below listing you can see into COM port. If you cannot see device then driver is missing, download and install driver from [here]()
+- To verify open device Manager and check if below listing you can see into COM port. If you cannot see device then driver is missing, download and install driver from [here](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/tree/main/SIMCOM_Windows_USB_Driver)
 
    <img src="https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/images/device_manager_simcom4g.jpg" width="490" height="400" />
    
