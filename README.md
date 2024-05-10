@@ -76,8 +76,9 @@ This Github provides a getting started guide for SIMCom SIM7600G-H 4G Module Bre
   * [Schematic](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware/blob/main/Design%20Data/SCH%20Simcom%204G%20bkt.pdf)
   * [Hardware Files](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware)
   * [3D Step File](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware/blob/main/Mechanical%20Data/STEP%20Simcom%204G%20BREAKOUT.step)
-  * [SIMCom SIM7600 4G Module Datasheet](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7600%20Series_SPEC_202111.pdf)
-  * [SIMCom SIM7600 4G Module Command Manual](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7500_SIM7600%20Series_AT%20Command%20Manual_V3.00.pdf)
+  * [SIMCom SIM7600G-H 4G Module Datasheet](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7600%20Series_SPEC_202111.pdf)
+  * [SIMCom SIM7600G-H 4G Module Command Manual](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7500_SIM7600%20Series_AT%20Command%20Manual_V3.00.pdf)
+  * [SIMCom SIM7600G-H Driver](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/tree/main/SIMCOM_Windows_USB_Driver)
 
 ## Related Products  
 
