@@ -32,7 +32,46 @@ This Github provides a getting started guide for SIMCom SIM7600G-H 4G Module Bre
 |(7) NET_STATUS LED                  |(8) Network LED      		          |(9) Power LED                	|
 |(10) GPS Antenna uFL connector      |(11) GPIOs and Power Breakout     |	                              |
 
+## Setup to use 4G Module 
+- Simply connect breakout to PC/laptop via USB Type C. 
+
+- Now press, hold Power Key button and release after 3-4 seconds to activate module. LEDs associated with the network will light up, first STATUS LED will be on and then NET LED starts blinking. This confirms module ready for use.
   
+- To verify open device Manager and check if below listing you can see into COM port. If you cannot see device then driver is missing, download and install driver from [here]()
+
+   <img src="https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/images/device_manager_simcom4g.jpg" width="490" height="400" />
+   
+- If everything goes well it will connect as a cellular network in your system as shown below. After the succesfull 4G Module connection you will able to use your cellular network to connect with internet.
+  
+  <img src="https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/images/4g_internet.jpg" width="268" height="411" />
+
+### For AT Commands Testing
+- Open XCTU software and select the Serial console option to run as shown below.
+
+  <img src="https://github.com/sbcshop/Pico_Cell_4G_Software/blob/main/images/img1_xctu.jpg" width="490" height="400"/>
+
+- Select Configure option and then suitable AT COM port. Change Baud Rate and other details only if needed, for the 4G module we will keep default settings. Select OK and After that just Close the connection to start.
+
+  <img src="https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/images/configure_comport.jpg" width="490" height="400" />
+
+  <img src="https://github.com/sbcshop/Pico_Cell_4G_Software/blob/main/images/img3_xctu.jpg" width="490" height="400" />
+
+- Now the 4G module is ready to accept AT commands for testing. Either you can send commands through console log or create packets to send AT commands.
+  
+  <img src="https://github.com/sbcshop/Pico_Cell_4G_Software/blob/main/images/img4_xctu.jpg" width="490" height="400" />
+
+  * AT
+  * ATD99########;
+  You can refer to the [manual](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout/blob/main/Documents/SIM7500_SIM7600%20Series_AT%20Command%20Manual_V3.00.pdf) for more such AT Commands
+
+- Creating packets is a good option for multiple commands testing. Don’t forget to add 0D and 0A required for carriage return and enter.
+  
+  <img src="https://github.com/sbcshop/Pico_Cell_4G_Software/blob/main/images/img5_xctu.jpg" width="490" height="400" />
+  
+  <img src="https://github.com/sbcshop/Pico_Cell_4G_Software/blob/main/images/img6_xctu.jpg" width="490" height="400" />
+
+  <img src="https://github.com/sbcshop/Pico_Cell_4G_Software/blob/main/images/img7_xctu.png" width="490" height="400" />
+    
 ## Resources
   * [Schematic](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware/blob/main/Design%20Data/SCH%20Simcom%204G%20bkt.pdf)
   * [Hardware Files](https://github.com/sbcshop/SIMCOM_SIM7600_4G_Breakout_Hardware)
